@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiShadowIssue.MainPage">
+
+    <Grid>
+        <Button
+            Text="+"
+            HorizontalOptions="End" 
+            VerticalOptions="End" 
+            HeightRequest="56" 
+            WidthRequest="56" 
+            CornerRadius="28"
+            Margin="16">
+            <Button.Shadow>
+                <Shadow Radius="20" />
+            </Button.Shadow>
+        </Button>
+    </Grid>
+
+</ContentPage>
